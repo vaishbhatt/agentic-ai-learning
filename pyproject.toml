@@ -1,0 +1,14 @@
+[project]
+name = "learning-journey"
+version = "0.1.0"
+description = "A privacy-first Streamlit dashboard for exploring longitudinal school-report data."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pillow",
+    "pymupdf",
+    "streamlit",
+]
+
+[tool.uv]
+package = false

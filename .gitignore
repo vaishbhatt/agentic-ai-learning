@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+
+# Local credentials and environment files
+.env
+.env.*
+*.key
+*.pem
+
+# Private source reports and all report-derived outputs
+reports/
+learning_journey_output/
+rating_prototype_output/
+pdf_diagnostic.txt
+*.pdf
+
+# Local app/session caches
+.app_cache/
+
+# The fully synthetic demo_data/ directory is intentionally not ignored.
